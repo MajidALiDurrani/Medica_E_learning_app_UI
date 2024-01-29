@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medical_e_learning_app/controlar/MainScreenControlar.dart';
+import 'package:medical_e_learning_app/screens/HomePageSubScreens/courses.dart';
 import 'package:medical_e_learning_app/screens/HomePageSubScreens/subjects.dart';
 import 'package:medical_e_learning_app/screens/Mainscreens.dart';
 import 'package:provider/provider.dart';
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: SubjectsScreen());
+        home: MainScreen());
   }
 }
